@@ -1,0 +1,75 @@
+@startmindmap
+caption AWS-CPE
+title AWS CPE (Cloud Practitioner Essentials) Training 15-Nov-2023
+<style>
+mindmapDiagram {
+  .green {
+    BackgroundColor lightgreen
+  }
+  .rose {
+    BackgroundColor #FFBBCC
+  }
+  .lightblue {
+    BackgroundColor lightblue
+  }
+}
+</style>
+* AWS CPE Modules
+** Module 1: AWS Intro <<green>>
+*** Deployment Model <<rose>>
+**** Cloud (public cloud) <<lightblue>>
+*****_ services on demand
+*****_ Write-through
+**** On-Premise (private cloud) <<lightblue>>
+*****_ In-memory storage
+*****_ Durable storage
+**** Hybrid <<lightblue>>
+***** NoSQL 
+******_ Key Value databases
+******_ Document databases
+******_ Graph databases
+******_ Datastructure databases
+***** RDBMS
+******_ Sharding
+*******_ Partitioning
+*******_ Replication
+******_ Denormalization
+******_ ORM + Rich domain model antipattern
+*** AWS Core <<rose>>
+**** Compute <<lightblue>>
+**** Storage <<lightblue>>
+**** Load-Balancing <<lightblue>>
+***** Round-robin allocation
+***** Random allocation
+***** Weighted Allocation
+***** Dynamic Load Balancing
+******_ Work-stealing
+******_ Work-donating
+******_ Queue-depth querying
+**** Parallel Computing <<lightblue>>
+*****_ SPMD pattern
+*****_ Master/Worker pattern
+*****_ Loop Parallelism pattern
+*****_ Fork/join pattern
+*****_ MapReduce pattern
+left side
+** Availability <<green>>
+*** Replication <<rose>>
+****_ Master-Slave
+****_ Master-Master
+****_ Buddy replication
+*** Fail-over <<rose>>
+** Stability <<green>>
+*** Circuit Breaker <<rose>>
+*** Timeouts <<rose>>
+*** Let it crash/Supervisors <<rose>>
+*** Crash early <<rose>>
+*** Bulkheads <<rose>>
+*** Steady state (clean up resources) <<rose>>
+*** Throttling <<rose>>
+****_ SEDA
+
+legend right
+  Created using PlantUML
+endlegend
+@endmindmap
