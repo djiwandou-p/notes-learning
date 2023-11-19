@@ -15,7 +15,7 @@ mindmapDiagram {
 }
 </style>
 * AWS CPE Modules
-** Module 1: AWS Intro <<green>>
+** M1: AWS Intro <<green>>
 *** Deployment Model <<rose>>
 **** Cloud (public cloud) <<lightblue>>
 *****_ services on demand
@@ -53,13 +53,13 @@ mindmapDiagram {
 *****_ Fork/join pattern
 *****_ MapReduce pattern
 left side
-** Availability <<green>>
+** M2: Compute in the cloud <<green>>
 *** Replication <<rose>>
 ****_ Master-Slave
 ****_ Master-Master
 ****_ Buddy replication
 *** Fail-over <<rose>>
-** Stability <<green>>
+** M3: Global infra & reliability  <<green>>
 *** Circuit Breaker <<rose>>
 *** Timeouts <<rose>>
 *** Let it crash/Supervisors <<rose>>
